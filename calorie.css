@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 2rem;
+    background-image: linear-gradient(to bottom, #39ba26 , #271ed3);
 }
 
 h1 {
-    color: #000000;
+    color: #ff2a5f;
 }
 
 form {
@@ -25,15 +26,17 @@ input[type="text"], input[type="number"], select {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #ff2a5f;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
+    transition: 0.4s;
+
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #271ed3;
 }
 
 ul {
