@@ -37,7 +37,7 @@ def index():
         goal_status = "Keep going!"
 
     # Read HTML file content
-    with open('calorie.html', 'r') as file:
+    with open('index.html', 'r') as file:
         html_content = file.read()
 
     return render_template_string(
